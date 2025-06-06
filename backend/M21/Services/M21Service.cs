@@ -1,11 +1,11 @@
-namespace Template.Services;
+namespace M21.Services;
 
-public interface ITemplateService
+public interface IM21Service
 {
     string GetObfuscatedName(ReadOnlySpan<char> nonObfuscatedName);
 }
 
-public class TemplateService : ITemplateService
+public class M21Service : IM21Service
 {
     public string GetObfuscatedName(ReadOnlySpan<char> nonObfuscatedName)
     {

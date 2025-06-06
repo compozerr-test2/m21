@@ -1,9 +1,9 @@
 {
-    "name": "@repo/template",
+    "name": "@repo/m21",
     "version": "0.0.0",
     "private": true,
     "exports": {
-        "./template-component": "./src/template-component.tsx"
+        "./m21-component": "./src/m21-component.tsx"
     },
     "devDependencies": {
         "@repo/config": "*"
